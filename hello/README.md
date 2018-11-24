@@ -1,22 +1,12 @@
-A library for Dart developers.
+Sample for build_runner
 
-Created from templates made available by Stagehand under a BSD-style
-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
 
-## Usage
-
-A simple usage example:
-
-```dart
-import 'package:hello/hello.dart';
-
-main() {
-  var awesome = new Awesome();
-}
+```
+pub run build_runner clean
+pub run build_runner build
 ```
 
-## Features and bugs
+then
 
-Please file feature requests and bugs at the [issue tracker][tracker].
 
-[tracker]: http://example.com/issues/replaceme
+display build target 's dart code 's file name
